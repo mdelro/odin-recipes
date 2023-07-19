@@ -1,20 +1,35 @@
 body {
-    background-color: yellow;
+    background-color: rgb(230, 233, 187);
     font-family: 'Courier New', Courier, monospace;
 }
 h1 {
     background-color: black;
     color: white;
+    padding: 4px;
 }
 h2 {
     background-color: white;
+    padding: 4px;
 }
 ul li {
     list-style: square;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+li.nav {
+    background-color: aqua;
+    list-style: square;
+    display: inline;
+    border: 1px solid black;
+    padding: 4px;
 }
  img {
     height: 300px;
     width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
  }
  
 a:hover {
